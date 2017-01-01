@@ -21,7 +21,9 @@
         "../node_modules/bootstrap/dist/css/bootstrap.css",
         "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/howler/dist/howler.min.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",

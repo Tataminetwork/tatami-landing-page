@@ -118,7 +118,7 @@
       "ru": "Как сказать <br> \"Доброе утро\" по китайски?"
     },
     "response": "早上好",
-    "sound": "https://media.socialsound.io/zh/zh-phrases-11.mp3",
+    "sound": "assets/sounds/zh-phrases-11.mp3",
     "flag": "assets/images/flags/zh.gif",
     "color": "color-blue"
   }, {
@@ -127,7 +127,7 @@
       "ru": "\"What's your name?\" <br> с английским акцентом?"
     },
     "response": "\"What's your name?\"",
-    "sound": "https://media.socialsound.io/en-gb-peter/uk-flirting-dating-19.mp3",
+    "sound": "assets/sounds/uk-flirting-dating-19.mp3",
     "flag": "assets/images/flags/en-gb.gif",
     "color": "color-red"
   }, {
@@ -136,7 +136,7 @@
       "ru": "How do I say <br> \"You have beautiful eyes\" <br> in Russian?"
     },
     "response": "\"У тебя красивые глаза\"",
-    "sound": "https://media.socialsound.io/ru/ru-anna-71.mp3",
+    "sound": "assets/sounds/ru-anna-71.mp3",
     "flag": "assets/images/flags/ru.gif",
     "color": "color-green"
   }, {
@@ -145,7 +145,7 @@
       "ru": "Как сказать <br> \"Мне нравится твоя улыбка\"<br>  по французски?"
     },
     "response": "\"J'aime ton sourire\"",
-    "sound": "https://media.socialsound.io/fr/pierre-83.mp3",
+    "sound": "assets/sounds/pierre-83.mp3",
     "flag": "assets/images/flags/fr.gif",
     "color": "color-blue"
   }, {
@@ -154,7 +154,7 @@
       "ru": "Как сказать <br> \"Хочешь потанцевать\" <br> по арабски?"
     },
     "response": "\"هل تودين الرقص؟\"",
-    "sound": "https://media.socialsound.io/ar-eg/ar-eg-73.mp3",
+    "sound": "assets/sounds/ar-eg-73.mp3",
     "flag": "assets/images/flags/ar-eg.gif",
     "color": "color-orange"
   }, {
@@ -163,7 +163,7 @@
       "ru": "Как сказать <br> \"Я очень голоден\" <br> по испански?"
     },
     "response": "\"Estoy muy hambriento\"",
-    "sound": "https://media.socialsound.io/es-mx/es-mx-61.mp3",
+    "sound": "assets/sounds/es-mx-61.mp3",
     "flag": "assets/images/flags/es-mx.gif",
     "color": "color-red"
   }, {
@@ -172,7 +172,7 @@
       "ru": "Как сказать <br> \"Это было очень вкусно! Спасибо\"<br>  по итальянски?"
     },
     "response": "\"Era delizioso! Grazie\"",
-    "sound": "https://media.socialsound.io/it-phrases-39.mp3",
+    "sound": "assets/sounds/it-phrases-39.mp3",
     "flag": "assets/images/flags/it.gif",
     "color": "color-green"
   }, {
@@ -181,7 +181,7 @@
       "ru": "Как сказать <br> \"Добрый день\" <br> по японски?"
     },
     "response": "\"こんにちは\"",
-    "sound": "https://media.socialsound.io/jp/jp-20.mp3",
+    "sound": "assets/sounds/jp-20.mp3",
     "flag": "assets/images/flags/jp.gif",
     "color": "color-blue"
   }, {
@@ -190,7 +190,7 @@
       "ru": "\"How are you?\" <br> с американским акцентом?"
     },
     "response": "\"How are you?\"",
-    "sound": "https://media.socialsound.io/us-greetings-07.mp3",
+    "sound": "assets/sounds/us-greetings-07.mp3",
     "flag": "assets/images/flags/en-us.gif",
     "color": "color-orange"
   }, {
@@ -199,7 +199,7 @@
       "ru": "Как сказать <br> \"Можно посмотреть <br> меню десертов\" <br> по итальянски?"
     },
     "response": "\"Posso vedere <br>il menù dei dolci?\"",
-    "sound": "https://media.socialsound.io/it-phrases-49.mp3",
+    "sound": "assets/sounds/it-phrases-49.mp3",
     "flag": "assets/images/flags/it.gif",
     "color": "color-green"
   }, {
@@ -208,7 +208,7 @@
       "ru": "Как сказать <br> \"Ты очень симпатичная\" <br> по испански?"
     },
     "response": "\"Te encuentro <br>muy atractiva\"",
-    "sound": "https://media.socialsound.io/es-mx/es-mx-98.mp3",
+    "sound": "assets/sounds/es-mx-98.mp3",
     "flag": "assets/images/flags/es-mx.gif",
     "color": "color-blue"
   }, {
@@ -217,7 +217,7 @@
       "ru": "\"Peter Piper picked <br> a peck of pickled peppers\" <br> с американским <br> акцентом?"
     },
     "response": "\"Peter Piper picked <br>a peck of <br>pickled peppers\"",
-    "sound": "https://media.socialsound.io/us-tongue-twister-01.mp3",
+    "sound": "assets/sounds/us-tongue-twister-01.mp3",
     "flag": "assets/images/flags/en-us.gif",
     "color": "color-red"
   }, {
@@ -226,7 +226,7 @@
       "ru": "\"貴社の記者<br>は汽車で帰社した\" <br> по японски?"
     },
     "response": "\"貴社の記者<br>は汽車で帰社した。\"",
-    "sound": "https://media.socialsound.io/jp/jp-04.mp3",
+    "sound": "assets/sounds/jp-04.mp3",
     "flag": "assets/images/flags/jp.gif",
     "color": "color-green"
   }, {
@@ -235,7 +235,7 @@
       "ru": "\"Шла Саша по шоссе <br> и сосала сушку.\" <br> на русском"
     },
     "response": "\"Шла Саша <br>по шоссе <br>и сосала сушку.\"",
-    "sound": "https://media.socialsound.io/ru/ru-anna-06.mp3",
+    "sound": "assets/sounds/ru-anna-06.mp3",
     "flag": "assets/images/flags/ru.gif",
     "color": "color-red"
   }, {
@@ -244,7 +244,7 @@
       "ru": "\"Tres tristes tigres tragaban <br>trigo en un trigal <br>en tres tristes trastos..\" <br> на испанском?"
     },
     "response": "\"Tres tristes <br>tigres tragaban ...\"",
-    "sound": "https://media.socialsound.io/es-mx/es-mx-01.mp3",
+    "sound": "assets/sounds/es-mx-01.mp3",
     "flag": "assets/images/flags/es-mx.gif",
     "color": "color-orange"
   }]

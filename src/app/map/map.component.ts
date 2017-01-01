@@ -11,7 +11,9 @@ export class MapComponent implements OnInit {
   people: Array<Object>;
   content: Array<Object>;
   timeouts: Array<Object>;
-  questionBeenAnswered: number;  
+  questionBeenAnswered: Object; 
+  playData: Array<Object>;
+
   constructor(private http: Http) {
     this.getData();
   }
@@ -19,6 +21,7 @@ export class MapComponent implements OnInit {
   ngOnInit() {
     this.userLanguage = 'en';
     this.timeouts = [];
+    this.playData = [];    
   }
 
   getData(): void {
@@ -26,13 +29,36 @@ export class MapComponent implements OnInit {
       .subscribe((res: Response) => {
         this.people = res.json().people;
         this.content = res.json().content;
+        this.loadSounds();
       })
   }
 
   questionBeenAsked(data: Object) {
-    console.log('question been asked=' + data['requestId']);
-    console.log('sender=' + data['senderIndex']);
-    //this.questionBeenAnswered = requestId;
+    this.questionBeenAnswered = data;
   }
+
+  playSound(index: number) {
+    this.stopAll();
+    this.playData[index].play(); 
+  }
+
+  stopAll(): void {
+    for (var i = 0; i < this.content.length; i++) {
+      if (this.content[i]) {
+        this.playData[i].stop();
+      }
+    }
+  }
+
+  loadSounds() {
+    for (var i = 0; i < this.content.length; i++) {        
+      var sound = new Howl({
+        src: [this.content[i]['sound']]
+      });
+      this.playData.push(sound);
+    } 
+  }
+
+  
 
 }

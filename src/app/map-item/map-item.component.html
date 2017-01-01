@@ -1,6 +1,6 @@
 <div class="map-item" 
-  [ngClass]="{'--fade': person.fade, '--shake': person.shake}" 
-  [ngStyle]="{top:person.top, left:person.left, width: person.width, opacity: person.opacity}">
+  [ngClass]="{'--fade': fade, '--shake': shake}" 
+  [ngStyle]="{top:person.top, left:person.left, width: person.width, opacity: opacity}">
   <img id="target-{{index}}" (click)="clickOnPerson()" class="map-item__avatar" [src]="person.avatar"/>
 
   <div class="map-item__bubble {{request.color}} {{person.bubbleClass}}" [hidden]="!showRequestBubble">
@@ -8,11 +8,11 @@
     <img class="map-item__bubble__lang-image" [src]="request.flag"/>
   </div>
 
-  <div class="map-item__bubble map-item__bubble__response {{response.color}} {{person.bubbleClass}} ng-hide" 
-    (click)="clickOnResponse()"
-    [hidden]="!showResponse">
+  <div class="map-item__bubble map-item__bubble__response {{content[responseId].color}} {{person.bubbleClass}}" 
+    (click)="clickOnResponseBubble()"
+    [hidden]="!showResponseBubble">
     <i class="fa fa-volume-up"></i>
-    <span [innerHTML]="response.response"></span>
+    <span [innerHTML]="content[responseId].response"></span>
   </div>
 
 </div>
